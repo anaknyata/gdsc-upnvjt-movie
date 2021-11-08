@@ -64,6 +64,9 @@ dependencies {
     implementation("androidx.room:room-ktx:$room_version")
     kapt("androidx.room:room-compiler:$room_version")
 
+    //Android Networking
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
+
     //bubbleview
     implementation 'com.github.lguipeng:BubbleView:1.0.1'
 
