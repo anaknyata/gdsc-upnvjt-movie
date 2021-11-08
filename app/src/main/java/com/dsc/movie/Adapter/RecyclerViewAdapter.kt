@@ -38,7 +38,7 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.RecyclerVie
                 val intent = Intent(context, DetailMovie::class.java)
                 intent.putExtra("title", item.title)
                 intent.putExtra("img", item.img)
-                intent.putExtra("Id", item.Id)
+                intent.putExtra("Id", item.Id.toString())
 
                 context.startActivity(intent)
             }
